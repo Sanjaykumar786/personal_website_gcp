@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjay Kumar | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Header -->
+  <header class="bg-black border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-white">Sanjay Kumar</h1>
+      <nav class="space-x-6 text-gray-400">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+ <!-- Hero Section -->
+<section class="py-20">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <img src="sanjaykumar.jpeg" alt="Sanjay Kumar" class="w-36 h-36 mx-auto rounded-full border-4 border-white shadow-lg mb-6 transform transition duration-500 hover:scale-110 hover:shadow-white/30"/>
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Sanjay 👋</h2>
+    <p class="text-xl text-gray-300">Cloud | DevOps | Full Stack Developer</p>
+    <p class="mt-4 text-gray-400">I build scalable, cloud-native applications with modern tools and technologies.</p>
+    <a href="#projects" class="mt-6 inline-block border border-white text-white font-semibold px-6 py-2 rounded-full hover:bg-white hover:text-black transition">View Projects</a>
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about" class="py-16 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">About Me</h3>
+      <p class="text-lg leading-relaxed text-gray-300">
+        I'm a passionate developer with experience in building web applications, automating cloud infrastructure, and creating CI/CD pipelines. I enjoy learning and implementing new technologies to solve real-world problems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 border-t border-gray-800">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="bg-gray-900 p-6 rounded-lg shadow hover:shadow-lg transition border border-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Cloud Deployment Pipeline</h4>
+          <p class="text-sm text-gray-400 mb-4">Automated deployment pipeline using Google Cloud Build and Docker.</p>
+          <a href="#" class="text-white hover:underline">View Project</a>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg shadow hover:shadow-lg transition border border-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Remote Access Tool</h4>
+          <p class="text-sm text-gray-400 mb-4">Web-based tool to control and transfer files to Android remotely.</p>
+          <a href="#" class="text-white hover:underline">View Project</a>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg shadow hover:shadow-lg transition border border-gray-800">
+          <h4 class="text-xl font-semibold mb-2">Kubernetes Monitoring</h4>
+          <p class="text-sm text-gray-400 mb-4">Real-time monitoring and alerting with CloudWatch and stress testing.</p>
+          <a href="#" class="text-white hover:underline">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Get In Touch</h3>
+      <p class="mb-6 text-gray-400">Let's connect on social media or send me an email!</p>
+      <div class="flex justify-center gap-6 mb-6 text-white text-2xl">
+        <a href="https://github.com/Sanjaykumar786" target="_blank" class="hover:text-gray-400" aria-label="GitHub">
+          <i data-lucide="github" class="w-7 h-7"></i>
+        </a>
+        <a href="mailto:sanjaydhaka47@gmail.com" target="_blank" class="hover:text-gray-400" aria-label="Gmail">
+          <i data-lucide="mail" class="w-7 h-7"></i>
+        </a>
+        <a href="https://instagram.com/your_username" target="_blank" class="hover:text-gray-400" aria-label="Instagram">
+          <i data-lucide="instagram" class="w-7 h-7"></i>
+        </a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" class="hover:text-gray-400" aria-label="LinkedIn">
+          <i data-lucide="linkedin" class="w-7 h-7"></i>
+        </a>
+      </div>
+      <a href="mailto:sanjaydhaka47@gmail.com" class="inline-block border border-white px-6 py-3 rounded-full hover:bg-white hover:text-black transition">
+        Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-800 mt-16">
+    <div class="max-w-6xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
+      © 2025 Sanjay Kumar. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
