@@ -38,7 +38,7 @@ This project automates the deployment of a personal HTML/CSS/JavaScript-based st
 
 ```bash
 gcloud auth login
-gcloud config set project personal_website_gcp
+gcloud config set project mywebpage-460319
 ````
 
 ### 1. Clone the repository
