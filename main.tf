@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("mywebpage-460319-031b57bb08ac.json")
+  credentials = file("D:/Mywebsite/mywebpage-460319-031b57bb08ac.json")
   project     = "mywebpage-460319"
   region      = var.region
 }
